@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import Button from "./Button";
+import "../styles/FrameBottom.css";
 
 export default class FrameBottom extends Component {
   render() {
     return (
-      <div>
-        <Button buttonType="Blogs" />
-        <Button buttonType="Background" />
-        <Button buttonType="Credits" />
+      <div className="framebottom">
+        <img src="../images/buttons/Buttons_5.png"></img>
+        <img src="../images/buttons/Buttons_6.png"></img>
+        <img src="../images/buttons/Buttons_7.png"></img>
       </div>
     );
   }

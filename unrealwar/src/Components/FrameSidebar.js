@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Button from "./Button";
+import "../styles/FrameSidebar.css";
 
 export default class FrameSidebar extends Component {
   render() {
     return (
-      <div>
-        <Button buttonType="Top" />
-        <Button buttonType="Bottom" />
+      <div className="framesidebar">
+        <img src="../images/buttons/Buttons_3.png"></img>
+        <img src="../images/buttons/Buttons_4.png"></img>
       </div>
     );
   }
