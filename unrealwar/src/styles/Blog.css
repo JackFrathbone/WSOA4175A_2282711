@@ -1,0 +1,47 @@
+.blog{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    flex: 0, 1, auto;
+    align-items: left;
+    justify-content: top;
+    margin-left:  15%;
+    margin-right:  15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    min-height: 550px;
+    max-height: 550px;
+    min-width: 900px;
+
+
+    font-family: 'VT323', monospace;
+
+    overflow-y:scroll;
+}
+
+.blog h1{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.blog h2{
+    font-size: 34px;
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.blog p{
+    font-size: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

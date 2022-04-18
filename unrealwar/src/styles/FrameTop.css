@@ -1,8 +1,8 @@
 .frametop {
   display:flex;
   flex-direction:row;
-  flex-wrap: wrap;
-  flex: 0 1 auto;
+  flex-wrap: nowrap;
+  flex: auto;
   align-items: center;
   justify-content: center;
   margin-left:  0%;
@@ -12,9 +12,12 @@
 }
 
 .frametop img{
-  height: 100x;
+  height: 100px;
   width: 100px;
   align-items: center;
-  padding-left: 5%;
-  padding-right: 5%;
+}
+
+.frametop a{
+  padding-left: 2%;
+  padding-right: 2%;
 }

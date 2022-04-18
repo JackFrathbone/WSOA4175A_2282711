@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
   background-color: black;
   margin: 0;
+}
+
+@font-face {
+  font-family: "VT323";
+  src: local("VT323") url("./fonts/VT323/VT323-Regular.ttf") format("Truetype");
 }

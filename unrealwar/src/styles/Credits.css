@@ -1,0 +1,38 @@
+.credits{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    flex: 0, 1, auto;
+    align-items: left;
+    justify-content: top;
+    margin-left:  15%;
+    margin-right:  15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    min-height: 550px;
+    max-height: 550px;
+    min-width: 900px;
+
+
+    font-family: 'VT323', monospace;
+
+    overflow-y:scroll;
+}
+
+.credits h1{
+    font-size: 85px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.credits p{
+    font-size: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
