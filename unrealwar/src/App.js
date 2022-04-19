@@ -11,6 +11,8 @@ import Background from "./components/pages/Background";
 import Blogs from "./components/pages/Blogs";
 import Blog1 from "./components/pages/Blogs/Blog1";
 import Blog2 from "./components/pages/Blogs/Blog2";
+import Blog3 from "./components/pages/Blogs/Blog3";
+import Blog4 from "./components/pages/Blogs/Blog4";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route exact path="/blogs" element={<Blogs />} />
         <Route exact path="/blog1" element={<Blog1 />} />
         <Route exact path="/blog2" element={<Blog2 />} />
+        <Route exact path="/blog3" element={<Blog3 />} />
+        <Route exact path="/blog4" element={<Blog4 />} />
       </Routes>
       <FrameBottom />
     </div>

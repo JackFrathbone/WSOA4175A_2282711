@@ -5,7 +5,7 @@ export default class Credits extends Component {
   render() {
     return (
       <div className="credits">
-        <h1>Credits</h1>
+        <h1>CREDITS</h1>
         <p>
           VT323 Font by Peter Hull licensed under SIL Open Font License(OFL)
         </p>
