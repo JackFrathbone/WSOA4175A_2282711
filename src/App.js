@@ -20,6 +20,7 @@ function App() {
       <FrameTop />
       <Routes>
         <Route exact path="/" element={<Title />} />
+        <Route exact path="/WSOA4175A_2282711" element={<Title />} />
         <Route exact path="/credits" element={<Credits />} />
         <Route exact path="/video" element={<Video />} />
         <Route exact path="/background" element={<Background />} />

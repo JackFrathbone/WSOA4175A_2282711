@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../../styles/Background.css";
+import Wireframe from "../../assets/documents/Wireframe.pdf";
+import Styleguide from "../../assets/documents/Styleguide.pdf";
 
 export default class Background extends Component {
   render() {
@@ -30,12 +32,12 @@ export default class Background extends Component {
         <h2>Website Design Resources</h2>
         <ul>
           <li>
-            <a href="../../documents/Wireframe.pdf" target="_blank">
+            <a href={Wireframe} target="_blank">
               Website Wireframe
             </a>
           </li>
           <li>
-            <a href="../../documents/Styleguide.pdf" target="_blank">
+            <a href={Styleguide} target="_blank">
               Website Styleguide
             </a>
           </li>
