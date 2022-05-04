@@ -3,6 +3,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import FrameTop from "./components/FrameTop";
 import FrameBottom from "./components/FrameBottom";
+import FrameSidebar from "./components/FrameSidebar";
 import Title from "./components/pages/Title.js";
 import "./fonts/VT323/VT323-Regular.ttf";
 import Credits from "./components/pages/Credits";
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/blog3" element={<Blog3 />} />
         <Route exact path="/blog4" element={<Blog4 />} />
       </Routes>
+      <FrameSidebar />
       <FrameBottom />
     </div>
   );
