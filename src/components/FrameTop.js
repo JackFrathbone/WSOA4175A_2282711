@@ -15,7 +15,7 @@ export default class FrameTop extends Component {
         <Link to="/video">
           <img src={Button_1}></img>
         </Link>
-        <Link to="/">
+        <Link to="/art">
           <img src={Button_2}></img>
         </Link>
       </div>

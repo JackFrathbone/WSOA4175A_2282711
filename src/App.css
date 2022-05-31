@@ -30,8 +30,6 @@
   grid-column: 1 / 3;
 }
 
-
-
 .break{
   flex-basis: 100%;
   width: 0px; 

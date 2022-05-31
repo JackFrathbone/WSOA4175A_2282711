@@ -1,0 +1,52 @@
+.art{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    flex: 0, 1, auto;
+    align-items: left;
+    justify-content: top;
+    margin-left:  15%;
+    margin-right:  5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    min-height: 550px;
+    max-height: 550px;
+    min-width: 900px;
+
+
+    font-family: 'VT323', monospace;
+}
+
+.art h1{
+    font-size: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.art h2{
+    font-size: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.art p{
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 2%;
+}
+
+.art mark{
+    background-color: white;
+    color: white;
+}
