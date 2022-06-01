@@ -26,6 +26,10 @@ class App extends Component {
     };
   }
 
+  setParentButtonToggle = (condition) => {
+    this.setState({buttonToggle: condition});
+  }
+
   render() {
     return (
       <div className="App">
@@ -43,7 +47,7 @@ class App extends Component {
           <Route exact path="/blog3" element={<Blog3 />} />
           <Route exact path="/blog4" element={<Blog4 />} />
         </Routes>
-        <FrameSidebar/>
+        <FrameSidebar setParentButtonToggle = {this.setParentButtonToggle} />
         <FrameBottom bottomToggle ={this.state.buttonToggle}/>
       </div>
     );
