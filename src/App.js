@@ -19,20 +19,17 @@ import Blog3 from "./components/pages/Blogs/Blog3";
 import Blog4 from "./components/pages/Blogs/Blog4";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.setStateOfParent.bind(this);
-    this.state = { buttonToggle: false };
+  constructor(props){
+    super();
+    this.state = { 
+      buttonToggle : true
+    };
   }
-
-  setStateOfParent = (buttonToggleNew) => {
-    this.setState({ buttonToggle: buttonToggleNew });
-  };
 
   render() {
     return (
       <div className="App">
-        <FrameTop setStateOfParent={this.setStateOfParent} />
+        <FrameTop topToggle ={this.state.buttonToggle} />
         <Routes>
           <Route exact path="/" element={<Title />} />
           <Route exact path="/WSOA4175A_2282711" element={<Title />} />
@@ -46,8 +43,8 @@ class App extends Component {
           <Route exact path="/blog3" element={<Blog3 />} />
           <Route exact path="/blog4" element={<Blog4 />} />
         </Routes>
-        <FrameSidebar setStateOfParent={this.setStateOfParent} />
-        <FrameBottom setStateOfParent={this.setStateOfParent} />
+        <FrameSidebar/>
+        <FrameBottom bottomToggle ={this.state.buttonToggle}/>
       </div>
     );
   }

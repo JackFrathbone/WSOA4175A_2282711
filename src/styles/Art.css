@@ -50,3 +50,13 @@
     background-color: white;
     color: white;
 }
+
+.art .marked{
+    background-color: white;
+    color: white;
+}
+
+.art .unmarked{
+    background-color: transparent;
+    color: white;
+}

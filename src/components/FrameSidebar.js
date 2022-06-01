@@ -8,12 +8,8 @@ export default class FrameSidebar extends Component {
   render() {
     return (
       <div className="framesidebar">
-        <Link to="/">
           <img src={Button_3}></img>
-        </Link>
-        <Link to="/blogs">
           <img src={Button_4}></img>
-        </Link>
       </div>
     );
   }

@@ -2,6 +2,19 @@ import React, { Component } from "react";
 import "../../styles/Art.css";
 
 export default class Art extends Component {
+  constructor(props){
+    super();
+    this.state = { 
+      textClicked : false
+    };
+    this.toggle = this.toggle.bind(this);
+  }
+
+  toggle(){
+    this.setState({ textClicked : true })
+  };
+
+
   render() {
     return (
       <div className="art">
@@ -13,10 +26,8 @@ export default class Art extends Component {
           pursued a colonial policy and practised imperialism. But “general”
           disquisitions on imperialism, which ignore, or put into the
           background,
-          <mark
-            onClick={() => {
-              console.log("test");
-            }}
+          <mark  className={ this.state.textClicked ? "unmarked" : "marked"}
+            onClick={this.toggle}
           >
             the fundamental difference between socio-economic formations
           </mark>

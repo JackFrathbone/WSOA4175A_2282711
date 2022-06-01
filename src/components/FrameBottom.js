@@ -6,6 +6,13 @@ import Button_6 from "../assets/images/buttons/Buttons_6.png";
 import Button_7 from "../assets/images/buttons/Buttons_7.png";
 
 export default class FrameBottom extends Component {
+  constructor(props){
+    super();
+    this.state = { 
+      bottomToggle : true
+    };
+  }
+
   render() {
     return (
       <div className="framebottom">
