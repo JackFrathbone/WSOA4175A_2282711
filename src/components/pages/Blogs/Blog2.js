@@ -18,8 +18,8 @@ export default class Blog2 extends Component {
           tools available at the time, and concepts that were yet to be
           developed. There has been a fundamental change in aesthetics that has
           really pushed the difference between older and newer web design.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           Lisbeth Thorlacius argues that “Visual symbols have become an integral
           part of our daily lives” in the modern era and that the shift in web
           design comes from the incorporation of semiotic design into
@@ -33,8 +33,8 @@ export default class Blog2 extends Component {
           clarity and focus are increased and there are even more opportunities
           for sites to break down information into more easily accessible pieces
           than before.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           In the previous year, one of my projects was to make a website that
           felt like it had been abandoned in the 2000’s and been corrupted over
           time. While doing readings on user experience and design I found that

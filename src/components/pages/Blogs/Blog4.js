@@ -14,20 +14,20 @@ export default class Blog4 extends Component {
           visually achieved the look I wanted. The inspiration for my site has
           been to replicate the look of an FGM-148 Javelin anti-tank weapon
           systems interface to directly tie into the themes I want to explore.
-          <br></br>
-          <br></br>I still need to flesh out some details, like adding animation
-          and sound effects to the buttons, as well as adding buttons on the
-          side that allow the user to toggle between the top and bottom buttons.
-          This is to better replicate the functionality found in a javelin
-          interface, and add some interesting navigation to the site to better
-          engage the viewer.I also need to focus on other visual polish, but
-          mostly small things such as a more dynamic blog viewer that uses
-          react.js more efficiently to display blog posts. Some other visual
-          tweaks like making the scrollbar better fit the sights overall
-          aesthetic would also help. Otherwise happy with the practical progress
-          made.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
+          I still need to flesh out some details, like adding animation and
+          sound effects to the buttons, as well as adding buttons on the side
+          that allow the user to toggle between the top and bottom buttons. This
+          is to better replicate the functionality found in a javelin interface,
+          and add some interesting navigation to the site to better engage the
+          viewer.I also need to focus on other visual polish, but mostly small
+          things such as a more dynamic blog viewer that uses react.js more
+          efficiently to display blog posts. Some other visual tweaks like
+          making the scrollbar better fit the sights overall aesthetic would
+          also help. Otherwise happy with the practical progress made.
+        </p>
+        <p>
           Theoretically I feel that I am moving in the right direction, but have
           not had a chance to really engage with the exact topics I want to work
           on with the blogs. Since the start of the project I have wanted to
@@ -40,10 +40,11 @@ export default class Blog4 extends Component {
           military information society which is a marxist exploration of the
           future merging of corporate technology with the military industrial
           complex of the United States (Levidow & Robins, 1989).
-          <br></br>
-          <br></br>I feel there is an important connection between private
-          American ownership of internet platforms, and the positive portrayal
-          of American militarism and imperialism found on popular social media
+        </p>
+        <p>
+          I feel there is an important connection between private American
+          ownership of internet platforms, and the positive portrayal of
+          American militarism and imperialism found on popular social media
           websites. People in the global south are subjected to these views with
           less room to challenge this discourse because of the sheer scale of
           anglo-American views online. I hope to further engage with this topic

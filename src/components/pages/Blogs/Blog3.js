@@ -17,8 +17,8 @@ export default class Blog3 extends Component {
           the often undiscussed role of cultural imperialism, places huge limits
           on how people engage with the internet, in favor of voices that are
           already privileged globally.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           Madianou writes about the concept of ‘technocolonialism’ which is an
           idea exploring technologically based inequality that exists between
           the global north and south (Madianou, 2019). Madianou argues that
@@ -34,8 +34,8 @@ export default class Blog3 extends Component {
           discourse. This is not just limited to social media, but the sheer
           quantity of english language and US based websites force people across
           the internet to engage or be locked out.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           In the book Design Justice Costanza-Chock argues that alternative
           approaches to both web design, and internet mediation are required to
           refocus design on building and helping communities to be properly
@@ -46,8 +46,8 @@ export default class Blog3 extends Component {
           required to stop and turn back the existing form of the internet that
           has allowed people in the global north to dominate the internet
           landscape.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           These questions about access, privilege and fair representation on the
           internet will only become increasingly more important as more of the
           world is connected. More countries are seeing internet access as an
@@ -62,11 +62,9 @@ export default class Blog3 extends Component {
           Madianou, M. (2019). Technocolonialism: Digital Innovation and Data
           Practices in the Humanitarian Response to Refugee Crises. Social Media
           + Society. 1(13).
-          <br></br>
-          <br></br>
-          Costanza-Chock, S. (2020). Design Justice. MIT Press.
-          <br></br>
-          <br></br>
+        </p>
+        <p>Costanza-Chock, S. (2020). Design Justice. MIT Press.</p>
+        <p>
           Daniolou, C. (2020). The Need for Global Internet Connectivity.
           Institute for Internet & the Just Society.
         </p>

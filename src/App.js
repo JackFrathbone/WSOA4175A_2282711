@@ -17,23 +17,26 @@ import Blog1 from "./components/pages/Blogs/Blog1";
 import Blog2 from "./components/pages/Blogs/Blog2";
 import Blog3 from "./components/pages/Blogs/Blog3";
 import Blog4 from "./components/pages/Blogs/Blog4";
+import Blog5 from "./components/pages/Blogs/Blog5";
+import Blog6 from "./components/pages/Blogs/Blog6";
+import Blog7 from "./components/pages/Blogs/Blog7";
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super();
-    this.state = { 
-      buttonToggle : true
+    this.state = {
+      buttonToggle: true,
     };
   }
 
   setParentButtonToggle = (condition) => {
-    this.setState({buttonToggle: condition});
-  }
+    this.setState({ buttonToggle: condition });
+  };
 
   render() {
     return (
       <div className="App">
-        <FrameTop topToggle ={this.state.buttonToggle} />
+        <FrameTop topToggle={this.state.buttonToggle} />
         <Routes>
           <Route exact path="/" element={<Title />} />
           <Route exact path="/WSOA4175A_2282711" element={<Title />} />
@@ -46,9 +49,12 @@ class App extends Component {
           <Route exact path="/blog2" element={<Blog2 />} />
           <Route exact path="/blog3" element={<Blog3 />} />
           <Route exact path="/blog4" element={<Blog4 />} />
+          <Route exact path="/blog5" element={<Blog5 />} />
+          <Route exact path="/blog6" element={<Blog6 />} />
+          <Route exact path="/blog7" element={<Blog7 />} />
         </Routes>
-        <FrameSidebar setParentButtonToggle = {this.setParentButtonToggle} />
-        <FrameBottom bottomToggle ={this.state.buttonToggle}/>
+        <FrameSidebar setParentButtonToggle={this.setParentButtonToggle} />
+        <FrameBottom bottomToggle={this.state.buttonToggle} />
       </div>
     );
   }

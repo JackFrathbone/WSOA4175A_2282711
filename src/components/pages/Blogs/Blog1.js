@@ -19,8 +19,8 @@ export default class Blog1 extends Component {
           These keywords can be selected which will then create lines between
           stars which share the keyword, creating an effect that resembles
           constellations and ties together emails covering the same topics.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           Writing on what he perceived to be the value of art, Walter Benjamin
           stated that “even the most perfect reproduction of a work of art is
           lacking in one element: its presence in time and space” (Benjamin,
@@ -35,8 +35,8 @@ export default class Blog1 extends Component {
           artworks which must be recreated or emulated to run on modern computer
           systems. There is a layer of separation between how they were and how
           they are now.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           In the article The Work of Art in the Age of the Internet David
           Carrier discusses how modern art has become increasingly digital and
           online, with the internet pages that store and show art being
@@ -58,14 +58,14 @@ export default class Blog1 extends Component {
         <p>
           Benjamin, W (1999). "The Work of Art in the Age of Mechanical
           Reproduction." Illuminations. Ed. H. Arendt. London, Pimlico. 211–235.
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           Carrier, D. (2020). The Work of Art in the Age of the Internet.
           Hyperallergic. Available at:
           https://hyperallergic.com/563938/the-work-of-art-in-the-age-of-the-internet/
           (Accessed: 09 March 2022).
-          <br></br>
-          <br></br>
+        </p>
+        <p>
           Galloway, A., Tribe, M., Wattenberg, M. (1999). Rhizome Net Art
           Anthology. Available at: https://anthology.rhizome.org/starrynight
           (Accessed: 09 March 2022).
