@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/WSOA4175A_2282711/static/css/main.9e8391fa.css",
-    "main.js": "/WSOA4175A_2282711/static/js/main.8cb0314a.js",
+    "main.css": "/WSOA4175A_2282711/static/css/main.1ed3965c.css",
+    "main.js": "/WSOA4175A_2282711/static/js/main.2fb00547.js",
     "static/js/787.a4c54d5e.chunk.js": "/WSOA4175A_2282711/static/js/787.a4c54d5e.chunk.js",
     "static/media/tankExplode.gif": "/WSOA4175A_2282711/static/media/tankExplode.f62ca03b17a490f277a8.gif",
     "static/media/VT323-Regular.ttf": "/WSOA4175A_2282711/static/media/VT323-Regular.2bc43ad8eb2f60b39f27.ttf",
+    "static/media/ArtWireframe.png": "/WSOA4175A_2282711/static/media/ArtWireframe.fc5ac3edc36782c6da4e.png",
     "static/media/Styleguide.pdf": "/WSOA4175A_2282711/static/media/Styleguide.e22e1ed102e52bc395d5.pdf",
-    "static/media/Wireframe.pdf": "/WSOA4175A_2282711/static/media/Wireframe.dfdde28c89b07cf93246.pdf",
-    "static/media/Buttons_8.png": "/WSOA4175A_2282711/static/media/Buttons_8.3ec5f1c218c1cc165527.png",
-    "static/media/Buttons_7.png": "/WSOA4175A_2282711/static/media/Buttons_7.1c662193f1e32dbc5510.png",
-    "static/media/Buttons_2.png": "/WSOA4175A_2282711/static/media/Buttons_2.630b90d266cb80662377.png",
-    "static/media/Buttons_6.png": "/WSOA4175A_2282711/static/media/Buttons_6.1860f9d724022b279d6c.png",
-    "static/media/Buttons_1.png": "/WSOA4175A_2282711/static/media/Buttons_1.ceb8edd8e9a8551e29b5.png",
-    "static/media/Buttons_5.png": "/WSOA4175A_2282711/static/media/Buttons_5.4ccd55f6d61dec7518e7.png",
+    "static/media/Wireframe.pdf": "/WSOA4175A_2282711/static/media/Wireframe.16ddf69ff7d32101872c.pdf",
+    "static/media/Buttons_8.png": "/WSOA4175A_2282711/static/media/Buttons_8.cb1dbfce626cf29b5e85.png",
+    "static/media/Buttons_7.png": "/WSOA4175A_2282711/static/media/Buttons_7.999a31acbd8c7a80dd90.png",
+    "static/media/Buttons_2.png": "/WSOA4175A_2282711/static/media/Buttons_2.c1343fbecbc296d438ed.png",
+    "static/media/Buttons_4.png": "/WSOA4175A_2282711/static/media/Buttons_4.69d648e23ca9e5694cbf.png",
+    "static/media/Buttons_6.png": "/WSOA4175A_2282711/static/media/Buttons_6.66d1ae8c9dc82a2c11cd.png",
+    "static/media/Buttons_1.png": "/WSOA4175A_2282711/static/media/Buttons_1.bb2ae873eb1bdeac9a6a.png",
+    "static/media/Buttons_3.png": "/WSOA4175A_2282711/static/media/Buttons_3.31938f29b06d33419524.png",
+    "static/media/Buttons_5.png": "/WSOA4175A_2282711/static/media/Buttons_5.2fefe6703ea0de20b0fe.png",
+    "static/media/Buttons_22.png": "/WSOA4175A_2282711/static/media/Buttons_22.11b502421b541623a056.png",
+    "static/media/Buttons_18.png": "/WSOA4175A_2282711/static/media/Buttons_18.941d9e33903b3fd53027.png",
+    "static/media/Buttons_21.png": "/WSOA4175A_2282711/static/media/Buttons_21.7c5c75bbe8dd27162d14.png",
+    "static/media/Buttons_17.png": "/WSOA4175A_2282711/static/media/Buttons_17.25f5549f00b9ed6ef561.png",
+    "static/media/Buttons_19.png": "/WSOA4175A_2282711/static/media/Buttons_19.ad3a825b4112d5ce34d6.png",
+    "static/media/Buttons_20.png": "/WSOA4175A_2282711/static/media/Buttons_20.8e256f8bd5a42faff2ca.png",
     "static/media/logo.svg": "/WSOA4175A_2282711/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/WSOA4175A_2282711/index.html",
-    "main.9e8391fa.css.map": "/WSOA4175A_2282711/static/css/main.9e8391fa.css.map",
-    "main.8cb0314a.js.map": "/WSOA4175A_2282711/static/js/main.8cb0314a.js.map",
+    "main.1ed3965c.css.map": "/WSOA4175A_2282711/static/css/main.1ed3965c.css.map",
+    "main.2fb00547.js.map": "/WSOA4175A_2282711/static/js/main.2fb00547.js.map",
     "787.a4c54d5e.chunk.js.map": "/WSOA4175A_2282711/static/js/787.a4c54d5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8391fa.css",
-    "static/js/main.8cb0314a.js"
+    "static/css/main.1ed3965c.css",
+    "static/js/main.2fb00547.js"
   ]
 }
