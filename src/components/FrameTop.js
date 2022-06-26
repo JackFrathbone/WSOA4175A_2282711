@@ -10,7 +10,7 @@ import Button_18 from "../assets/images/buttons/Buttons_18.png";
 
 export default class FrameTop extends Component {
   render() {
-    if(this.props.topToggle){
+    if (this.props.topToggle) {
       return (
         <div className="frametop">
           <Link to="/">
@@ -24,13 +24,14 @@ export default class FrameTop extends Component {
           </Link>
         </div>
       );
-    }
-    else{ return (
-      <div className="frametop">
+    } else {
+      return (
+        <div className="frametop">
           <img src={Button_22}></img>
           <img src={Button_17}></img>
           <img src={Button_18}></img>
-      </div>
-    );}
+        </div>
+      );
+    }
   }
 }

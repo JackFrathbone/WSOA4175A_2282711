@@ -10,28 +10,28 @@ import Button_21 from "../assets/images/buttons/Buttons_21.png";
 
 export default class FrameBottom extends Component {
   render() {
-    if(!this.props.bottomToggle){ return (
-      <div className="framebottom">
-        <Link to="/blogs">
-          <img src={Button_5}></img>
-        </Link>
-        <Link to="/background">
-          <img src={Button_6}></img>
-        </Link>
-        <Link to="/credits">
-          <img src={Button_7}></img>
-        </Link>
-      </div>
-    );}
-    else{
+    if (!this.props.bottomToggle) {
       return (
         <div className="framebottom">
-            <img src={Button_20}></img>
-            <img src={Button_19}></img>
-            <img src={Button_21}></img>
+          <Link to="/blogs">
+            <img src={Button_5}></img>
+          </Link>
+          <Link to="/background">
+            <img src={Button_6}></img>
+          </Link>
+          <Link to="/credits">
+            <img src={Button_7}></img>
+          </Link>
+        </div>
+      );
+    } else {
+      return (
+        <div className="framebottom">
+          <img src={Button_20}></img>
+          <img src={Button_19}></img>
+          <img src={Button_21}></img>
         </div>
       );
     }
-   
   }
 }
