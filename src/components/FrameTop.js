@@ -14,22 +14,22 @@ export default class FrameTop extends Component {
       return (
         <div className="frametop">
           <Link to="/">
-            <img src={Button_8}></img>
+            <img src={Button_8} alt="Homepage button"></img>
           </Link>
           <Link to="/video">
-            <img src={Button_1}></img>
+            <img src={Button_1} alt="Video button"></img>
           </Link>
           <Link to="/art">
-            <img src={Button_2}></img>
+            <img src={Button_2} alt="Artwork button"></img>
           </Link>
         </div>
       );
     } else {
       return (
         <div className="frametop">
-          <img src={Button_22}></img>
-          <img src={Button_17}></img>
-          <img src={Button_18}></img>
+          <img src={Button_22} alt="Homepage button disabled"></img>
+          <img src={Button_17} alt="Video button disabled"></img>
+          <img src={Button_18} alt="Artwork button disabled"></img>
         </div>
       );
     }

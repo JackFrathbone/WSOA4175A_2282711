@@ -14,22 +14,22 @@ export default class FrameBottom extends Component {
       return (
         <div className="framebottom">
           <Link to="/blogs">
-            <img src={Button_5}></img>
+            <img src={Button_5} alt="Blogs button"></img>
           </Link>
           <Link to="/background">
-            <img src={Button_6}></img>
+            <img src={Button_6} alt="Background button"></img>
           </Link>
           <Link to="/credits">
-            <img src={Button_7}></img>
+            <img src={Button_7} alt="Credits button"></img>
           </Link>
         </div>
       );
     } else {
       return (
         <div className="framebottom">
-          <img src={Button_20}></img>
-          <img src={Button_19}></img>
-          <img src={Button_21}></img>
+          <img src={Button_20} alt="Blogs button disabled"></img>
+          <img src={Button_19} alt="Background button disabled"></img>
+          <img src={Button_21} alt="Credits button disabled"></img>
         </div>
       );
     }

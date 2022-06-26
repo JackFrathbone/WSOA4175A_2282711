@@ -6,7 +6,10 @@ export default class Video extends Component {
   render() {
     return (
       <div className="video">
-        <img src={TankGif}></img>
+        <img
+          src={TankGif}
+          alt="A GIF of a tank being destroyed by a javelin missile"
+        ></img>
       </div>
     );
   }

@@ -35,7 +35,12 @@ export default class Blog5 extends Component {
           </ul>
         </p>
         <h2>Wireframe</h2>
-        <img src={Wireframe} width="960" height="540"></img>
+        <img
+          src={Wireframe}
+          width="960"
+          height="540"
+          alt="A wireframe of the websites artwork"
+        ></img>
       </div>
     );
   }

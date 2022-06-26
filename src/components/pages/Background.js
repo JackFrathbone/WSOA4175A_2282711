@@ -32,12 +32,12 @@ export default class Background extends Component {
         <h2>Website Design Resources</h2>
         <ul>
           <li>
-            <a href={Wireframe} target="_blank">
+            <a href={Wireframe} target="_blank" rel="noreferrer">
               Website Wireframe
             </a>
           </li>
           <li>
-            <a href={Styleguide} target="_blank">
+            <a href={Styleguide} target="_blank" rel="noreferrer">
               Website Styleguide
             </a>
           </li>

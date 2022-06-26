@@ -15,12 +15,14 @@ export default class Credits extends Component {
           Vladimir Lenin (1916)
         </p>
         <p>
-          Text excerpts from the Operation Condor page on Wikipedia.com [
+          Text excerpts from the National Endowment For Democracy 2020 Annual
+          Report [
           <a
-            href="https://en.wikipedia.org/wiki/Operation_Condor"
+            href="https://www.ned.org/annual-report/2020-annual-report/"
             target="_blank"
+            rel="noreferrer"
           >
-            https://en.wikipedia.org/wiki/Operation_Condor
+            https://www.ned.org/annual-report/2020-annual-report/
           </a>
           ]
         </p>

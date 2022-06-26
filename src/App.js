@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import React, { Component } from "react";
-import { useState } from "react";
 import FrameTop from "./components/FrameTop";
 import FrameBottom from "./components/FrameBottom";
 import FrameSidebar from "./components/FrameSidebar";
@@ -20,6 +18,9 @@ import Blog4 from "./components/pages/Blogs/Blog4";
 import Blog5 from "./components/pages/Blogs/Blog5";
 import Blog6 from "./components/pages/Blogs/Blog6";
 import Blog7 from "./components/pages/Blogs/Blog7";
+import Blog8 from "./components/pages/Blogs/Blog8";
+import Blog9 from "./components/pages/Blogs/Blog9";
+import Blog10 from "./components/pages/Blogs/Blog10";
 
 class App extends Component {
   constructor(props) {
@@ -52,6 +53,9 @@ class App extends Component {
           <Route exact path="/blog5" element={<Blog5 />} />
           <Route exact path="/blog6" element={<Blog6 />} />
           <Route exact path="/blog7" element={<Blog7 />} />
+          <Route exact path="/blog8" element={<Blog8 />} />
+          <Route exact path="/blog9" element={<Blog9 />} />
+          <Route exact path="/blog10" element={<Blog10 />} />
         </Routes>
         <FrameSidebar setParentButtonToggle={this.setParentButtonToggle} />
         <FrameBottom bottomToggle={this.state.buttonToggle} />

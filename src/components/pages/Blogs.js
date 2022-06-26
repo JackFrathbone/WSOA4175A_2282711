@@ -33,6 +33,15 @@ export default class Blogs extends Component {
           <li>
             <Link to="/blog7">Blog 7: Self Reflection 2</Link>
           </li>
+          <li>
+            <Link to="/blog8">Blog 8: Technical Reflection</Link>
+          </li>
+          <li>
+            <Link to="/blog9">Blog 9: Design Reflection</Link>
+          </li>
+          <li>
+            <Link to="/blog10">Blog 10: Artwork Self-Critique</Link>
+          </li>
         </ul>
       </div>
     );

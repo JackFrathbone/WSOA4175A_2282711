@@ -4,7 +4,7 @@
     flex-wrap: nowrap;
     flex: 0, 1, auto;
     align-items: left;
-    justify-content: top;
+    justify-content: center;
     margin-left:  15%;
     margin-right:  5%;
     margin-top: 0%;
@@ -38,7 +38,7 @@
 }
 
 .art p{
-    font-size: 25px;
+    font-size: 28px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0%;
