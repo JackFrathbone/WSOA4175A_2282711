@@ -40,7 +40,9 @@ export default class Blogs extends Component {
             <Link to="/blog9">Blog 9: Design Reflection</Link>
           </li>
           <li>
-            <Link to="/blog10">Blog 10: Artwork Self-Critique</Link>
+            <Link to="/blog10">
+              Blog 10: Internet Artwork Rationale and Critical Reflection
+            </Link>
           </li>
         </ul>
       </div>

@@ -65,6 +65,15 @@ export default class Blog9 extends Component {
           tighter but this was just a difficulty of working with something that
           was changing over time in its intent.
         </p>
+        <h2>References</h2>
+        <p>
+          Lenin, V. (1961). Imperialism, the Highest Stage of Capitalism.
+          Progress Publishers.
+        </p>
+        <p>
+          Levidow, L., Robins, K. (1989). Cyborg Worlds: the military
+          information society. Free Association Books.
+        </p>
       </div>
     );
   }
